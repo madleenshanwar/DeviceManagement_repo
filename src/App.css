@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  background-color: rgba(0,0,0,0.8);
+}
+/*home*/
+.headerimg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.content{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  color:white;
+  height: 641px;
+}
+.content img{
+  position: absolute;
+  height: 100%;
+}
+.logo{
+  position: absolute;
+  left: 18%;
+  top: 5%;
+  font-size: x-large;
+  font-family: monospace;
+  letter-spacing: 1px;
+  border: 1px solid #f95882;
+  border-left: none;
+  border-bottom: none;
+  padding: 8px;
+  border-radius: 20px;
+}
+.content div{
+  position: absolute;
+  top: 40%;
+  left: 18%;
+  font-family: monospace;
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+      typing 3s steps(15) infinite
+}
+@keyframes typing{
+  from{width: 0;}
+}
+.title-home{
+  margin-bottom: 20px;
+  letter-spacing: 1.4px;
+  text-shadow: white 1px 1px 10px ,#c839f3 1px 0 10px;
+}
+@media(max-width:885px){
+  p.title-home{
+    font-size: 25px !important;
+  } 
+  h2.title-home{
+    font-size: 40px !important;
+  }
+  .btn{
+    font-size: 15px !important;
+  }
+}
+@media(max-width:730px){
+  p.title-home{
+    font-size: 20px !important;
+  } 
+  h2.title-home{
+    font-size: 30px !important;
+  }
+}
+@media(max-width:570px){
+  h2.title-home{
+    white-space: wrap;
+  }
+}
+/*SideBar*/
+.icon{
+  cursor: pointer;
+  position: absolute !important;
+  right: 15px;
+}
+/*Devices*/
+.title{
+  font-size: xx-large;
+  font-weight: bold;
+  color: #872ca2;
+}
+/*offers*/
+.price{
+  font-weight: bold;
+  padding: 25px;
+  border-radius: 50%;
+  font-size: x-large;
+}
+/*login*/
+.login{
+  height:100vh;
+  background-image: url('C:/Users/planet/Desktop/traning/DeviceManagment/my-app/public/assest/images/background/img1.png');
+  background-size: cover;
+  background-position: center;
+}
+.loginImg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+/*favorite*/
+.img{
+   width: 110px; 
+   height: 160px
+}
+.img:hover{
+  transform: scale(1.2);
+}

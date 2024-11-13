@@ -1,0 +1,20 @@
+//devices
+export const ADD_DEVICES = 'ADD_DEVICES';
+export const REMOVE_DEVICES = 'REMOVE_DEVICES';
+export const UPDATE_DEVICES='UPDATE_DEVICES'
+//accessories
+export const ADD_ACCESSORIES = 'ADD_ACCESSORIES';
+export const REMOVE_ACCESSORIES = 'REMOVE_ACCESSORIES';
+export const UPDATE_ACCESSORIES='UPDATE_ACCESSORIES'
+//offer
+export const ADD_OFFER = 'ADD_OFFER';
+export const REMOVE_OFFER = 'REMOVE_OFFER';
+export const UPDATE_OFFER='UPDATE_OFFER'
+//fav device
+export const ADD_Fav_DEVICES = 'ADD_Fav_DEVICES';
+export const REMOVE_Fav_DEVICES = 'REMOVE_Fav_DEVICES';
+export const UPDATE_Fav_DEVICES='UPDATE_Fav_DEVICES'
+//fav accessories
+export const ADD_FAV_ACCESSORIES='ADD_FAV_ACCESSORIES'
+export const REMOVE_FAV_ACCESSORIES='REMOVE_FAV_ACCESSORIES'
+export const UPDATE_FAV_ACCESSORIES='UPDATE_FAV_ACCESSORIES'
